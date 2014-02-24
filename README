@@ -1,5 +1,6 @@
 NAME
-    WWW::KrispyKreme - root namespace for Krisy Kreme modules
+    WWW::KrispyKreme - root namespace for Krisy Kreme modules. This module
+    currently does nothing.
 
 SYNOPSIS
       use WWW::KrispyKreme;

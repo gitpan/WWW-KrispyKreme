@@ -1,8 +1,13 @@
-use strict;
-use Test::More;
-use WWW::KrispyKreme;
+#!perl -T
 
-# replace with the actual test
-ok 1;
+use strict;
+use warnings;
+
+use Test::More;
+use Test::Pod;
+
+BEGIN { use_ok('WWW::KrispyKreme') };
+
+pod_file_ok('lib/WWW/KrispyKreme.pm', 'POD file looks good');
 
 done_testing;

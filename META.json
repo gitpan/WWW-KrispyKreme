@@ -1,10 +1,10 @@
 {
-   "abstract" : "root namespace for Krisy Kreme modules",
+   "abstract" : "root namespace for Krisy Kreme modules. This module currently does nothing.",
    "author" : [
       "Curtis Brandt <curtis@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.2, Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Milla version v1.0.4, Dist::Zilla version 5.012, CPAN::Meta::Converter version 2.133380",
    "license" : [
       "perl_5"
    ],
@@ -26,7 +26,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.019"
+            "Module::Build::Tiny" : "0.030"
          }
       },
       "develop" : {
@@ -41,7 +41,8 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.88"
+            "Test::More" : "0.88",
+            "Test::Pod" : "1.48"
          }
       }
    },
@@ -57,7 +58,7 @@
          "web" : "https://github.com/aggrolite/WWW-KrispyKreme"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Curtis Brandt <curtisjbrandt@gmail.com>"
    ]

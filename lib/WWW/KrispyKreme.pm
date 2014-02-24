@@ -2,7 +2,7 @@ package WWW::KrispyKreme;
 
 use strict;
 use 5.008_005;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 __END__
@@ -11,7 +11,7 @@ __END__
 
 =head1 NAME
 
-WWW::KrispyKreme - root namespace for Krisy Kreme modules
+WWW::KrispyKreme - root namespace for Krisy Kreme modules. This module currently does nothing.
 
 =head1 SYNOPSIS
 
